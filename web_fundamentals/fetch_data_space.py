@@ -21,7 +21,7 @@ def fetch_planet_data(planet_name):
     else:
         print(f"Error fetching data for {planet_name}. Status code: {response.status_code}")
 
-fetch_planet_data("jupiter")
+fetch_planet_data()
 
 def fetch_planet_data():
     url = "https://api.le-systeme-solaire.net/rest/bodies/"
